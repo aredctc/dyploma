@@ -1,0 +1,81 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 705.913 s <<< FAILURE! - in TestSuite
+isAppliancesPageLoaded(ImtechSmokeTests)  Time elapsed: 32.652 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ImtechSmokeTests.isAppliancesPageLoaded(ImtechSmokeTests.java:28)
+
+isAppliancesPageLoaded(RozetkaSmokeTests)  Time elapsed: 64.02 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at RozetkaSmokeTests.isAppliancesPageLoaded(RozetkaSmokeTests.java:28)
+
+isLaptopsAndComputersPageLoaded(RozetkaSmokeTests)  Time elapsed: 62.725 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at RozetkaSmokeTests.isLaptopsAndComputersPageLoaded(RozetkaSmokeTests.java:38)
+
+isSmartphonesAndTvPageLoaded(RozetkaSmokeTests)  Time elapsed: 62.684 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at RozetkaSmokeTests.isSmartphonesAndTvPageLoaded(RozetkaSmokeTests.java:48)
+
+isAccessoriesCategoryPageLoaded(ZtuShopSmokeTests)  Time elapsed: 60.552 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isAccessoriesCategoryPageLoaded(ZtuShopSmokeTests.java:73)
+
+isAppliancesCategoryPageLoaded(ZtuShopSmokeTests)  Time elapsed: 60.393 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isAppliancesCategoryPageLoaded(ZtuShopSmokeTests.java:29)
+
+isBasePageLoaded(ZtuShopSmokeTests)  Time elapsed: 30.464 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isBasePageLoaded(ZtuShopSmokeTests.java:18)
+
+isConsolesCategoryPageLoaded(ZtuShopSmokeTests)  Time elapsed: 60.52 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isConsolesCategoryPageLoaded(ZtuShopSmokeTests.java:84)
+
+isLaptopsCategoryPageLoaded(ZtuShopSmokeTests)  Time elapsed: 60.403 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isLaptopsCategoryPageLoaded(ZtuShopSmokeTests.java:40)
+
+isSmartphonesCategoryPageLoaded(ZtuShopSmokeTests)  Time elapsed: 60.456 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isSmartphonesCategoryPageLoaded(ZtuShopSmokeTests.java:51)
+
+isTvCategoryPageLoaded(ZtuShopSmokeTests)  Time elapsed: 60.47 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isTvCategoryPageLoaded(ZtuShopSmokeTests.java:62)
+

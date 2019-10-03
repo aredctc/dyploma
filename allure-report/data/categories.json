@@ -1,0 +1,145 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'\nSystem info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: driver.version: Driver",
+      "children" : [ {
+        "name" : "Test to validate is Appliances Imtech page loaded",
+        "uid" : "78bfa60b42b719a6",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477338242,
+          "stop" : 1559477370892,
+          "duration" : 32650
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isAppliancesPageLoaded",
+        "uid" : "fa06b123d96e30ec",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477405100,
+          "stop" : 1559477469118,
+          "duration" : 64018
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "isLaptopsAndComputersPageLoaded",
+        "uid" : "5b5579ce748f5acc",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477471176,
+          "stop" : 1559477533900,
+          "duration" : 62724
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "isSmartphonesAndTvPageLoaded",
+        "uid" : "483241e8cb24217d",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477533904,
+          "stop" : 1559477596587,
+          "duration" : 62683
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "isAccessoriesCategoryPageLoaded",
+        "uid" : "fe345c0c4813de8f",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477596592,
+          "stop" : 1559477657142,
+          "duration" : 60550
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isAppliancesCategoryPageLoaded",
+        "uid" : "901eac7ddc50428c",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477657146,
+          "stop" : 1559477717538,
+          "duration" : 60392
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isBasePageLoaded",
+        "uid" : "96d7ace263e229fc",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477717541,
+          "stop" : 1559477748004,
+          "duration" : 30463
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isConsolesCategoryPageLoaded",
+        "uid" : "e165136f5c1a96a8",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477748007,
+          "stop" : 1559477808526,
+          "duration" : 60519
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isLaptopsCategoryPageLoaded",
+        "uid" : "39273fa1e2bb4c81",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477808531,
+          "stop" : 1559477868932,
+          "duration" : 60401
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isSmartphonesCategoryPageLoaded",
+        "uid" : "c4d8a1790a1e8c42",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477868935,
+          "stop" : 1559477929390,
+          "duration" : 60455
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isTvCategoryPageLoaded",
+        "uid" : "5adccb3f212cef5d",
+        "parentUid" : "42af8ec7710ede8b6139f61bf4ba8c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477929393,
+          "stop" : 1559477989861,
+          "duration" : 60468
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42af8ec7710ede8b6139f61bf4ba8c0f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

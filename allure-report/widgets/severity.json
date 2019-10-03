@@ -1,0 +1,231 @@
+[ {
+  "uid" : "96d7ace263e229fc",
+  "name" : "isBasePageLoaded",
+  "time" : {
+    "start" : 1559477717541,
+    "stop" : 1559477748004,
+    "duration" : 30463
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7013e296aa3344e3",
+  "name" : "Test to validate is Portable Equipment Imtech page loaded",
+  "time" : {
+    "start" : 1559477389210,
+    "stop" : 1559477393996,
+    "duration" : 4786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4d8a1790a1e8c42",
+  "name" : "isSmartphonesCategoryPageLoaded",
+  "time" : {
+    "start" : 1559477868935,
+    "stop" : 1559477929390,
+    "duration" : 60455
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fd7b8ab5fa3ecf4c",
+  "name" : "Test to validate is Office Equipment Imtech page loaded",
+  "time" : {
+    "start" : 1559477383802,
+    "stop" : 1559477389206,
+    "duration" : 5404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b5579ce748f5acc",
+  "name" : "isLaptopsAndComputersPageLoaded",
+  "time" : {
+    "start" : 1559477471176,
+    "stop" : 1559477533900,
+    "duration" : 62724
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bb8a952b28a5a0be",
+  "name" : "ValidateAddingProductToCartByTitleAndPrice",
+  "time" : {
+    "start" : 1559477328382,
+    "stop" : 1559477338231,
+    "duration" : 9849
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c7fe2d018bc23f1",
+  "name" : "isBasePageLoaded",
+  "time" : {
+    "start" : 1559477469125,
+    "stop" : 1559477471171,
+    "duration" : 2046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "483241e8cb24217d",
+  "name" : "isSmartphonesAndTvPageLoaded",
+  "time" : {
+    "start" : 1559477533904,
+    "stop" : 1559477596587,
+    "duration" : 62683
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "15c424ffb72aa59b",
+  "name" : "AddedToCartProductShouldBeExistInCartPage",
+  "time" : {
+    "start" : 1559477294382,
+    "stop" : 1559477311523,
+    "duration" : 17141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "901eac7ddc50428c",
+  "name" : "isAppliancesCategoryPageLoaded",
+  "time" : {
+    "start" : 1559477657146,
+    "stop" : 1559477717538,
+    "duration" : 60392
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fa06b123d96e30ec",
+  "name" : "isAppliancesPageLoaded",
+  "time" : {
+    "start" : 1559477405100,
+    "stop" : 1559477469118,
+    "duration" : 64018
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "33c5e179b4a1ada1",
+  "name" : "AllowsToAddProductToCart",
+  "time" : {
+    "start" : 1559477311689,
+    "stop" : 1559477328375,
+    "duration" : 16686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe345c0c4813de8f",
+  "name" : "isAccessoriesCategoryPageLoaded",
+  "time" : {
+    "start" : 1559477596592,
+    "stop" : 1559477657142,
+    "duration" : 60550
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b3eac9e0feffad4",
+  "name" : "Test to validate is TV Imtech page loaded",
+  "time" : {
+    "start" : 1559477401924,
+    "stop" : 1559477405092,
+    "duration" : 3168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adca2cb9a9fda09b",
+  "name" : "Test to validate is Servers Equipment page loaded",
+  "time" : {
+    "start" : 1559477394001,
+    "stop" : 1559477396936,
+    "duration" : 2935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "895be22fbc754739",
+  "name" : "Test to validate is Computers Imtech page loaded",
+  "time" : {
+    "start" : 1559477372754,
+    "stop" : 1559477378289,
+    "duration" : 5535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78bfa60b42b719a6",
+  "name" : "Test to validate is Appliances Imtech page loaded",
+  "time" : {
+    "start" : 1559477338242,
+    "stop" : 1559477370892,
+    "duration" : 32650
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e1475f99de9d8428",
+  "name" : "Test to validate is Network Equipment Imtech page loaded",
+  "time" : {
+    "start" : 1559477378293,
+    "stop" : 1559477383799,
+    "duration" : 5506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e165136f5c1a96a8",
+  "name" : "isConsolesCategoryPageLoaded",
+  "time" : {
+    "start" : 1559477748007,
+    "stop" : 1559477808526,
+    "duration" : 60519
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3a551bfcd0bb1c66",
+  "name" : "Test to validate is Smartphones Imtech page loaded",
+  "time" : {
+    "start" : 1559477396942,
+    "stop" : 1559477401920,
+    "duration" : 4978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5adccb3f212cef5d",
+  "name" : "isTvCategoryPageLoaded",
+  "time" : {
+    "start" : 1559477929393,
+    "stop" : 1559477989861,
+    "duration" : 60468
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5c41984e1f425db",
+  "name" : "Test to validate is base Imtech page loaded",
+  "time" : {
+    "start" : 1559477370895,
+    "stop" : 1559477372749,
+    "duration" : 1854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39273fa1e2bb4c81",
+  "name" : "isLaptopsCategoryPageLoaded",
+  "time" : {
+    "start" : 1559477808531,
+    "stop" : 1559477868932,
+    "duration" : 60401
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

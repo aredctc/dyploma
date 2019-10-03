@@ -1,0 +1,221 @@
+{
+  "uid" : "895be22fbc754739",
+  "name" : "Test to validate is Computers Imtech page loaded",
+  "fullName" : "ImtechSmokeTests.isComputersPageLoaded",
+  "historyId" : "1002a62a037f4b5a8927e3d724e176fe",
+  "time" : {
+    "start" : 1559477372754,
+    "stop" : 1559477378289,
+    "duration" : 5535
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1559477287369,
+      "stop" : 1559477294302,
+      "duration" : 6933
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e46811b26c5b1b8",
+      "name" : "{method}",
+      "source" : "7e46811b26c5b1b8.bin",
+      "type" : "application/octet-stream",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1559477989864,
+      "stop" : 1559477991116,
+      "duration" : 1252
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ImtechSmokeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "ImtechSmokeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "isComputersPageLoaded"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ImtechSmokeTests"
+  }, {
+    "name" : "host",
+    "value" : "aredchyts-nout"
+  }, {
+    "name" : "thread",
+    "value" : "1430584@aredchyts-nout.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "Imtech tests"
+  }, {
+    "name" : "feature",
+    "value" : "Smoke tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c33855afe4030da9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559476563676,
+        "stop" : 1559476569960,
+        "duration" : 6284
+      }
+    }, {
+      "uid" : "6094e2f0037501ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559476319220,
+        "stop" : 1559476325860,
+        "duration" : 6640
+      }
+    }, {
+      "uid" : "be017f0e5764814e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559475988224,
+        "stop" : 1559475993972,
+        "duration" : 5748
+      }
+    }, {
+      "uid" : "df107b505ba045d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559475614398,
+        "stop" : 1559475620353,
+        "duration" : 5955
+      }
+    }, {
+      "uid" : "239fa53d6e3fdde8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559474937224,
+        "stop" : 1559474943859,
+        "duration" : 6635
+      }
+    }, {
+      "uid" : "1c6002742e2869da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559474563593,
+        "stop" : 1559474569746,
+        "duration" : 6153
+      }
+    }, {
+      "uid" : "8be183691418c79f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559474069748,
+        "stop" : 1559474075496,
+        "duration" : 5748
+      }
+    }, {
+      "uid" : "4fd4376c471b53c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559473252789,
+        "stop" : 1559473258920,
+        "duration" : 6131
+      }
+    }, {
+      "uid" : "aeaf47a67970a739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559405299219,
+        "stop" : 1559405304506,
+        "duration" : 5287
+      }
+    }, {
+      "uid" : "98a85bd8f2663c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559404197397,
+        "stop" : 1559404203661,
+        "duration" : 6264
+      }
+    }, {
+      "uid" : "d8f8c12cb012d705",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559403998297,
+        "stop" : 1559404004237,
+        "duration" : 5940
+      }
+    }, {
+      "uid" : "f9a5e5082fcb1349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559402480020,
+        "stop" : 1559402486221,
+        "duration" : 6201
+      }
+    }, {
+      "uid" : "6e8ecc4eaa6acbd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559396775894,
+        "stop" : 1559396782178,
+        "duration" : 6284
+      }
+    }, {
+      "uid" : "c3a90e42c4b5782a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559396456498,
+        "stop" : 1559396463275,
+        "duration" : 6777
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "895be22fbc754739.json",
+  "parameterValues" : [ ]
+}

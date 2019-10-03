@@ -1,0 +1,107 @@
+{
+  "uid" : "a2ed2c3abe32cce",
+  "name" : "Test to validate is base Imtech page loaded",
+  "fullName" : "ImtechSmokeTests.isBasePageLoaded",
+  "historyId" : "44a29490c11b0b2eb92fcbdd1e267999",
+  "time" : {
+    "start" : 1559476317340,
+    "stop" : 1559476319215,
+    "duration" : 1875
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1559476272935,
+      "stop" : 1559476279504,
+      "duration" : 6569
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b8d79a530d51616",
+      "name" : "{method}",
+      "source" : "8b8d79a530d51616.bin",
+      "type" : "application/octet-stream",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1559476351694,
+      "stop" : 1559476353292,
+      "duration" : 1598
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ImtechSmokeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "ImtechSmokeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "isBasePageLoaded"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ImtechSmokeTests"
+  }, {
+    "name" : "host",
+    "value" : "aredchyts-nout"
+  }, {
+    "name" : "thread",
+    "value" : "1507772@aredchyts-nout.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "Imtech tests"
+  }, {
+    "name" : "feature",
+    "value" : "Smoke tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2ed2c3abe32cce.json",
+  "parameterValues" : [ ]
+}

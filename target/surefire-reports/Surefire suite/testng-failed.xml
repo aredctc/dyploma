@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="ZtuShopSmokeTests">
+        <methods>
+          <include name="isAccessoriesCategoryPageLoaded"/>
+          <include name="beforeClass"/>
+          <include name="isConsolesCategoryPageLoaded"/>
+          <include name="afterTest"/>
+          <include name="isTvCategoryPageLoaded"/>
+          <include name="afterClass"/>
+          <include name="isAppliancesCategoryPageLoaded"/>
+          <include name="isLaptopsCategoryPageLoaded"/>
+          <include name="isBasePageLoaded"/>
+          <include name="beforeTest"/>
+          <include name="isSmartphonesCategoryPageLoaded"/>
+        </methods>
+      </class> <!-- ZtuShopSmokeTests -->
+      <class name="ImtechSmokeTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="isAppliancesPageLoaded"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ImtechSmokeTests -->
+      <class name="RozetkaSmokeTests">
+        <methods>
+          <include name="isAppliancesPageLoaded"/>
+          <include name="beforeClass"/>
+          <include name="isLaptopsAndComputersPageLoaded"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="isSmartphonesAndTvPageLoaded"/>
+        </methods>
+      </class> <!-- RozetkaSmokeTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

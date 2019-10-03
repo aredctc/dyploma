@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="705.913" tests="23" errors="0" skipped="0" failures="11">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="All tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="DEFLOGDIR" value="C:\ProgramData\McAfee\Endpoint Security\Logs"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="162a466fea12cf2b"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="ANT_HOME" value="C:\Users\aredchyts\Downloads\apache-ant-1.10.5-bin\apache-ant-1.10.5"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="AREDCHYTS-NOUT$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="All tests"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/All%20tests/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="OneDrive" value="C:\Windows\system32\config\systemprofile\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="USERNAME" value="AREDCHYTS-NOUT$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Users\aredchyts\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/All%20tests/1/display/redirect"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/All%20tests/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="COMPUTERNAME" value="AREDCHYTS-NOUT"/>
+    <property name="user.script" value=""/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="BUILD_TAG" value="jenkins-All tests-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="162a466fea12cf2b"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_162\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\aredchyts\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1/bin;C:\Program Files\Java\jdk1.8.0_162/bin;C:\Program Files\Java\jdk1.8.0_162/bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\PuTTY\;C:\Python27\libs;C:\Python27\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Users\aredchyts\Downloads\apache-ant-1.10.5-bin\apache-ant-1.10.5\bin;C:\Users\aredchyts\AppData\Local\Programs\Python\Python37-32\Scripts;D:\Study\allure-2.7.0\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\aredchyts\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\aredchyts\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar;C:\Users\aredchyts\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\aredchyts\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.30.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 54955"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_162/bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\PuTTY\;C:\Python27\libs;C:\Python27\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Users\aredchyts\Downloads\apache-ant-1.10.5-bin\apache-ant-1.10.5\bin;C:\Users\aredchyts\AppData\Local\Programs\Python\Python37-32\Scripts;D:\Study\allure-2.7.0\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_162/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\aredchyts\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\aredchyts\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/All%20tests/1/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\Study\ztuEcommerceAutomation"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/All%20tests/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Users\aredchyts\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="D:\Study\ztuEcommerceAutomation"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="AddedToCartProductShouldBeExistInCartPage" classname="ImtechCartTests" time="17.199"/>
+  <testcase name="AllowsToAddProductToCart" classname="ImtechCartTests" time="16.689"/>
+  <testcase name="ValidateAddingProductToCartByTitleAndPrice" classname="ImtechCartTests" time="9.852"/>
+  <testcase name="isAppliancesPageLoaded" classname="ImtechSmokeTests" time="32.652">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ImtechSmokeTests.isAppliancesPageLoaded(ImtechSmokeTests.java:28)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:08:58 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-06-02 15:08:58 INFO  LoggerUtil:11 - ****************************************************************************************
+2019-06-02 15:08:58 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: ImtechSmokeTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:08:58 INFO  LoggerUtil:15 - ****************************************************************************************
+2019-06-02 15:08:58 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:08:58 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isAppliancesPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:08:58 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:08:59 INFO  LoggerUtil:38 - Loaded: http://imtech.com.ua/
+2019-06-02 15:08:59 INFO  LoggerUtil:38 - Waiting for clickable element Appliances page link
+2019-06-02 15:09:00 INFO  LoggerUtil:38 - Clicked on Appliances page link
+2019-06-02 15:09:00 INFO  LoggerUtil:38 - Waiting for visibility of Appliances page base label
+2019-06-02 15:09:30 ERROR LoggerUtil:50 - Failed to find visible webElement 'Appliances page base label':Expected condition failed: waiting for visibility of element located by By.xpath: //h1[contains(text(), 'Бытовая')] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:09:30 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@48bab2c6': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:09:30 ERROR LoggerUtil:50 - Test FAILED: isAppliancesPageLoaded
+2019-06-02 15:09:30 INFO  LoggerUtil:38 - Screenshot captured for test case: isAppliancesPageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isBasePageLoaded" classname="ImtechSmokeTests" time="1.856"/>
+  <testcase name="isComputersPageLoaded" classname="ImtechSmokeTests" time="5.536"/>
+  <testcase name="isNetworkEquipmentPageLoaded" classname="ImtechSmokeTests" time="5.508"/>
+  <testcase name="isOfficeEquipmentPageLoaded" classname="ImtechSmokeTests" time="5.405"/>
+  <testcase name="isPortableEquipmentPageLoaded" classname="ImtechSmokeTests" time="4.788"/>
+  <testcase name="isServersEquipmentPageLoaded" classname="ImtechSmokeTests" time="2.937"/>
+  <testcase name="isSmarpthonesPageLoaded" classname="ImtechSmokeTests" time="4.98"/>
+  <testcase name="isTvPageLoaded" classname="ImtechSmokeTests" time="3.169"/>
+  <testcase name="isAppliancesPageLoaded" classname="RozetkaSmokeTests" time="64.02">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at RozetkaSmokeTests.isAppliancesPageLoaded(RozetkaSmokeTests.java:28)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:10:05 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-06-02 15:10:05 INFO  LoggerUtil:11 - ****************************************************************************************
+2019-06-02 15:10:05 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: RozetkaSmokeTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:10:05 INFO  LoggerUtil:15 - ****************************************************************************************
+2019-06-02 15:10:05 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:10:05 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isAppliancesPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:10:05 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:10:08 INFO  LoggerUtil:38 - Loaded: https://rozetka.com.ua/ua/
+2019-06-02 15:10:08 INFO  LoggerUtil:38 - Waiting for clickable element Appliances link
+2019-06-02 15:10:38 ERROR LoggerUtil:50 - Failed to find clickable element 'engine.Locatable@ceeb762':Expected condition failed: waiting for element to be clickable: By.xpath: (//a[@class = 'menu-categories__link'])[3] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54981}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: aa7f30b9c57a422eeb3153490e5accbc
+2019-06-02 15:10:38 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@ceeb762': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:10:38 INFO  LoggerUtil:38 - Waiting for visibility of Base Appliance page label
+2019-06-02 15:11:08 ERROR LoggerUtil:50 - Failed to find visible webElement 'Base Appliance page label':Expected condition failed: waiting for visibility of element located by By.cssSelector: .title-page (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:11:08 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@451f08ea': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:11:08 ERROR LoggerUtil:50 - Test FAILED: isAppliancesPageLoaded
+2019-06-02 15:11:08 INFO  LoggerUtil:38 - Screenshot captured for test case: isAppliancesPageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isBasePageLoaded" classname="RozetkaSmokeTests" time="2.05"/>
+  <testcase name="isLaptopsAndComputersPageLoaded" classname="RozetkaSmokeTests" time="62.725">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at RozetkaSmokeTests.isLaptopsAndComputersPageLoaded(RozetkaSmokeTests.java:38)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:11:11 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:11:11 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isLaptopsAndComputersPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:11:11 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:11:13 INFO  LoggerUtil:38 - Loaded: https://rozetka.com.ua/ua/
+2019-06-02 15:11:13 INFO  LoggerUtil:38 - Waiting for clickable element Laptops and computers link
+2019-06-02 15:11:43 ERROR LoggerUtil:50 - Failed to find clickable element 'engine.Locatable@61ce4af8':Expected condition failed: waiting for element to be clickable: By.xpath: (//a[@class = 'menu-categories__link'])[1] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54981}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: aa7f30b9c57a422eeb3153490e5accbc
+2019-06-02 15:11:43 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@61ce4af8': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:11:43 INFO  LoggerUtil:38 - Waiting for visibility of Base Laptops and computers page label
+2019-06-02 15:12:13 ERROR LoggerUtil:50 - Failed to find visible webElement 'Base Laptops and computers page label':Expected condition failed: waiting for visibility of element located by By.cssSelector: .h3,pab-h3 (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:12:13 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@33015d51': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:12:13 ERROR LoggerUtil:50 - Test FAILED: isLaptopsAndComputersPageLoaded
+2019-06-02 15:12:13 INFO  LoggerUtil:38 - Screenshot captured for test case: isLaptopsAndComputersPageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isSmartphonesAndTvPageLoaded" classname="RozetkaSmokeTests" time="62.684">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at RozetkaSmokeTests.isSmartphonesAndTvPageLoaded(RozetkaSmokeTests.java:48)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:12:13 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:12:13 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isSmartphonesAndTvPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:12:13 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:12:15 INFO  LoggerUtil:38 - Loaded: https://rozetka.com.ua/ua/
+2019-06-02 15:12:15 INFO  LoggerUtil:38 - Waiting for clickable element Smartphones and TV link
+2019-06-02 15:12:46 ERROR LoggerUtil:50 - Failed to find clickable element 'engine.Locatable@662d42e':Expected condition failed: waiting for element to be clickable: By.xpath: (//a[@class = 'menu-categories__link'])[2] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54981}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: aa7f30b9c57a422eeb3153490e5accbc
+2019-06-02 15:12:46 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@662d42e': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:12:46 INFO  LoggerUtil:38 - Waiting for visibility of Base Smartphones and TV page label
+2019-06-02 15:13:16 ERROR LoggerUtil:50 - Failed to find visible webElement 'Base Smartphones and TV page label':Expected condition failed: waiting for visibility of element located by By.cssSelector: .h3,pab-h3 (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:13:16 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@6c444399': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:13:16 ERROR LoggerUtil:50 - Test FAILED: isSmartphonesAndTvPageLoaded
+2019-06-02 15:13:16 INFO  LoggerUtil:38 - Screenshot captured for test case: isSmartphonesAndTvPageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isAccessoriesCategoryPageLoaded" classname="ZtuShopSmokeTests" time="60.552">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isAccessoriesCategoryPageLoaded(ZtuShopSmokeTests.java:73)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:13:16 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-06-02 15:13:16 INFO  LoggerUtil:11 - ****************************************************************************************
+2019-06-02 15:13:16 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: ZtuShopSmokeTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:13:16 INFO  LoggerUtil:15 - ****************************************************************************************
+2019-06-02 15:13:16 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:13:16 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isAccessoriesCategoryPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:13:16 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:13:16 INFO  LoggerUtil:38 - Loaded: http://localhost:8080/shop/
+2019-06-02 15:13:16 INFO  LoggerUtil:38 - Waiting for clickable element Category button
+2019-06-02 15:13:46 ERROR LoggerUtil:50 - Failed to find clickable element 'engine.Locatable@7e236f5f':Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(text(), 'Accessories')])[1] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:13:46 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@7e236f5f': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:13:46 INFO  LoggerUtil:38 - Waiting for visibility of Base Accessories page label
+2019-06-02 15:14:16 ERROR LoggerUtil:50 - Failed to find visible webElement 'Base Accessories page label':Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),'Accessories')] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:14:16 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@16fad858': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:14:16 ERROR LoggerUtil:50 - Test FAILED: isAccessoriesCategoryPageLoaded
+2019-06-02 15:14:16 INFO  LoggerUtil:38 - Screenshot captured for test case: isAccessoriesCategoryPageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isAppliancesCategoryPageLoaded" classname="ZtuShopSmokeTests" time="60.393">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isAppliancesCategoryPageLoaded(ZtuShopSmokeTests.java:29)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:14:17 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:14:17 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isAppliancesCategoryPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:14:17 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:14:17 INFO  LoggerUtil:38 - Loaded: http://localhost:8080/shop/
+2019-06-02 15:14:17 INFO  LoggerUtil:38 - Waiting for clickable element Category button
+2019-06-02 15:14:47 ERROR LoggerUtil:50 - Failed to find clickable element 'engine.Locatable@5dfb30e0':Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(text(), 'Appliances')])[1] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:14:47 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@5dfb30e0': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:14:47 INFO  LoggerUtil:38 - Waiting for visibility of Base Appliance page label
+2019-06-02 15:15:17 ERROR LoggerUtil:50 - Failed to find visible webElement 'Base Appliance page label':Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),'Appliances')] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:15:17 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@1773ace9': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:15:17 ERROR LoggerUtil:50 - Test FAILED: isAppliancesCategoryPageLoaded
+2019-06-02 15:15:17 INFO  LoggerUtil:38 - Screenshot captured for test case: isAppliancesCategoryPageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isBasePageLoaded" classname="ZtuShopSmokeTests" time="30.464">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isBasePageLoaded(ZtuShopSmokeTests.java:18)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:15:17 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:15:17 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isBasePageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:15:17 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:15:17 INFO  LoggerUtil:38 - Loaded: http://localhost:8080/shop/
+2019-06-02 15:15:17 INFO  LoggerUtil:38 - Waiting for visibility of Featured items label
+2019-06-02 15:15:47 ERROR LoggerUtil:50 - Failed to find visible webElement 'Featured items label':Expected condition failed: waiting for visibility of element located by By.xpath: //h2[contains(text(),'Featured')] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:15:47 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@69fd854d': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:15:47 ERROR LoggerUtil:50 - Test FAILED: isBasePageLoaded
+2019-06-02 15:15:47 INFO  LoggerUtil:38 - Screenshot captured for test case: isBasePageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isConsolesCategoryPageLoaded" classname="ZtuShopSmokeTests" time="60.52">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isConsolesCategoryPageLoaded(ZtuShopSmokeTests.java:84)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:15:48 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:15:48 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isConsolesCategoryPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:15:48 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:15:48 INFO  LoggerUtil:38 - Loaded: http://localhost:8080/shop/
+2019-06-02 15:15:48 INFO  LoggerUtil:38 - Waiting for clickable element Category button
+2019-06-02 15:16:18 ERROR LoggerUtil:50 - Failed to find clickable element 'engine.Locatable@56791346':Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(text(), 'Consoles')])[1] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:16:18 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@56791346': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:16:18 INFO  LoggerUtil:38 - Waiting for visibility of Base Consoles page label
+2019-06-02 15:16:48 ERROR LoggerUtil:50 - Failed to find visible webElement 'Base Consoles page label':Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),'Consoles')] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:16:48 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@42af16f0': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:16:48 ERROR LoggerUtil:50 - Test FAILED: isConsolesCategoryPageLoaded
+2019-06-02 15:16:48 INFO  LoggerUtil:38 - Screenshot captured for test case: isConsolesCategoryPageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isLaptopsCategoryPageLoaded" classname="ZtuShopSmokeTests" time="60.403">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isLaptopsCategoryPageLoaded(ZtuShopSmokeTests.java:40)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:16:48 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:16:48 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isLaptopsCategoryPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:16:48 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:16:48 INFO  LoggerUtil:38 - Loaded: http://localhost:8080/shop/
+2019-06-02 15:16:48 INFO  LoggerUtil:38 - Waiting for clickable element Category button
+2019-06-02 15:17:18 ERROR LoggerUtil:50 - Failed to find clickable element 'engine.Locatable@26ee668':Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(text(), 'Laptops')])[1] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:17:18 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@26ee668': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:17:18 INFO  LoggerUtil:38 - Waiting for visibility of Base Laptops page label
+2019-06-02 15:17:48 ERROR LoggerUtil:50 - Failed to find visible webElement 'Base Laptops page label':Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),'Laptops')] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:17:48 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@108b5d04': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:17:48 ERROR LoggerUtil:50 - Test FAILED: isLaptopsCategoryPageLoaded
+2019-06-02 15:17:48 INFO  LoggerUtil:38 - Screenshot captured for test case: isLaptopsCategoryPageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isSmartphonesCategoryPageLoaded" classname="ZtuShopSmokeTests" time="60.456">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isSmartphonesCategoryPageLoaded(ZtuShopSmokeTests.java:51)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:17:48 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:17:48 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isSmartphonesCategoryPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:17:48 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:17:48 INFO  LoggerUtil:38 - Loaded: http://localhost:8080/shop/
+2019-06-02 15:17:48 INFO  LoggerUtil:38 - Waiting for clickable element Category button
+2019-06-02 15:18:19 ERROR LoggerUtil:50 - Failed to find clickable element 'engine.Locatable@3cae6fcd':Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(text(), 'Smartphones')])[1] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:18:19 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@3cae6fcd': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:18:19 INFO  LoggerUtil:38 - Waiting for visibility of Base Smartphones page label
+2019-06-02 15:18:49 ERROR LoggerUtil:50 - Failed to find visible webElement 'Base Smartphones page label':Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),'Smartphones')] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:18:49 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@12f06cb': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:18:49 ERROR LoggerUtil:50 - Test FAILED: isSmartphonesCategoryPageLoaded
+2019-06-02 15:18:49 INFO  LoggerUtil:38 - Screenshot captured for test case: isSmartphonesCategoryPageLoaded
+]]></system-out>
+  </testcase>
+  <testcase name="isTvCategoryPageLoaded" classname="ZtuShopSmokeTests" time="60.47">
+    <failure message="Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: driver.version: Driver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+	at ZtuShopSmokeTests.isTvCategoryPageLoaded(ZtuShopSmokeTests.java:62)
+</failure>
+    <system-out><![CDATA[2019-06-02 15:18:49 INFO  LoggerUtil:29 - ****************************************************************************************
+2019-06-02 15:18:49 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isTvCategoryPageLoaded is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-06-02 15:18:49 INFO  LoggerUtil:33 - ****************************************************************************************
+2019-06-02 15:18:49 INFO  LoggerUtil:38 - Loaded: http://localhost:8080/shop/
+2019-06-02 15:18:49 INFO  LoggerUtil:38 - Waiting for clickable element Category button
+2019-06-02 15:19:19 ERROR LoggerUtil:50 - Failed to find clickable element 'engine.Locatable@251e4f64':Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(text(), 'TV')])[1] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:19:19 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@251e4f64': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:19:19 INFO  LoggerUtil:38 - Waiting for visibility of Base TV page label
+2019-06-02 15:19:49 ERROR LoggerUtil:50 - Failed to find visible webElement 'Base TV page label':Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),'TV')] (tried for 30 second(s) with 500 milliseconds interval)
+2019-06-02 15:19:49 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@58e280bc': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AREDCHYTS-NOUT', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: Driver
+2019-06-02 15:19:49 ERROR LoggerUtil:50 - Test FAILED: isTvCategoryPageLoaded
+2019-06-02 15:19:49 INFO  LoggerUtil:38 - Screenshot captured for test case: isTvCategoryPageLoaded
+]]></system-out>
+  </testcase>
+</testsuite>

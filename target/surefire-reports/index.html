@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 11 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ZtuShopSmokeTests" hash-for-method="isAccessoriesCategoryPageLoaded">isAccessoriesCategoryPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ZtuShopSmokeTests" hash-for-method="isAppliancesCategoryPageLoaded">isAppliancesCategoryPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="RozetkaSmokeTests" hash-for-method="isAppliancesPageLoaded">isAppliancesPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechSmokeTests" hash-for-method="isAppliancesPageLoaded">isAppliancesPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ZtuShopSmokeTests" hash-for-method="isBasePageLoaded">isBasePageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ZtuShopSmokeTests" hash-for-method="isConsolesCategoryPageLoaded">isConsolesCategoryPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="RozetkaSmokeTests" hash-for-method="isLaptopsAndComputersPageLoaded">isLaptopsAndComputersPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ZtuShopSmokeTests" hash-for-method="isLaptopsCategoryPageLoaded">isLaptopsCategoryPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="RozetkaSmokeTests" hash-for-method="isSmartphonesAndTvPageLoaded">isSmartphonesAndTvPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ZtuShopSmokeTests" hash-for-method="isSmartphonesCategoryPageLoaded">isSmartphonesCategoryPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ZtuShopSmokeTests" hash-for-method="isTvCategoryPageLoaded">isTvCategoryPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechCartTests" hash-for-method="AddedToCartProductShouldBeExistInCartPage">AddedToCartProductShouldBeExistInCartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechCartTests" hash-for-method="AllowsToAddProductToCart">AllowsToAddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechCartTests" hash-for-method="ValidateAddingProductToCartByTitleAndPrice">ValidateAddingProductToCartByTitleAndPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechSmokeTests" hash-for-method="isBasePageLoaded">isBasePageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="RozetkaSmokeTests" hash-for-method="isBasePageLoaded">isBasePageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechSmokeTests" hash-for-method="isComputersPageLoaded">isComputersPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechSmokeTests" hash-for-method="isNetworkEquipmentPageLoaded">isNetworkEquipmentPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechSmokeTests" hash-for-method="isOfficeEquipmentPageLoaded">isOfficeEquipmentPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechSmokeTests" hash-for-method="isPortableEquipmentPageLoaded">isPortableEquipmentPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechSmokeTests" hash-for-method="isServersEquipmentPageLoaded">isServersEquipmentPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechSmokeTests" hash-for-method="isSmarpthonesPageLoaded">isSmarpthonesPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="ImtechSmokeTests" hash-for-method="isTvPageLoaded">isTvPageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ZtuShopSmokeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isAccessoriesCategoryPageLoaded">
+                  </a> <!-- isAccessoriesCategoryPageLoaded -->
+                  <span class="method-name">isAccessoriesCategoryPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.ztShop.AccessoriesPage.isAccessoriesCategoryPageBaseElementDisplayed(AccessoriesPage.java:14)
+	at ZtuShopSmokeTests.isAccessoriesCategoryPageLoaded(ZtuShopSmokeTests.java:73)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isAppliancesCategoryPageLoaded">
+                  </a> <!-- isAppliancesCategoryPageLoaded -->
+                  <span class="method-name">isAppliancesCategoryPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.ztShop.AppliancesPage.isApplianceCategoryPageBaseElementDisplayed(AppliancesPage.java:14)
+	at ZtuShopSmokeTests.isAppliancesCategoryPageLoaded(ZtuShopSmokeTests.java:29)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isBasePageLoaded">
+                  </a> <!-- isBasePageLoaded -->
+                  <span class="method-name">isBasePageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.ztShop.BasePage.isFeaturedItemsLabelDisplayedPage(BasePage.java:20)
+	at ZtuShopSmokeTests.isBasePageLoaded(ZtuShopSmokeTests.java:18)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConsolesCategoryPageLoaded">
+                  </a> <!-- isConsolesCategoryPageLoaded -->
+                  <span class="method-name">isConsolesCategoryPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.ztShop.ConsolesPage.isConsolesCategoryPageBaseElementDisplayed(ConsolesPage.java:14)
+	at ZtuShopSmokeTests.isConsolesCategoryPageLoaded(ZtuShopSmokeTests.java:84)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isLaptopsCategoryPageLoaded">
+                  </a> <!-- isLaptopsCategoryPageLoaded -->
+                  <span class="method-name">isLaptopsCategoryPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.ztShop.LaptopsPage.isLaptopsCategoryPageBaseElementDisplayed(LaptopsPage.java:14)
+	at ZtuShopSmokeTests.isLaptopsCategoryPageLoaded(ZtuShopSmokeTests.java:40)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSmartphonesCategoryPageLoaded">
+                  </a> <!-- isSmartphonesCategoryPageLoaded -->
+                  <span class="method-name">isSmartphonesCategoryPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.ztShop.SmartphonesPage.isSmartphonesCategoryPageBaseElementDisplayed(SmartphonesPage.java:14)
+	at ZtuShopSmokeTests.isSmartphonesCategoryPageLoaded(ZtuShopSmokeTests.java:51)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTvCategoryPageLoaded">
+                  </a> <!-- isTvCategoryPageLoaded -->
+                  <span class="method-name">isTvCategoryPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.ztShop.TvPage.isTVCategoryPageBaseElementDisplayed(TvPage.java:14)
+	at ZtuShopSmokeTests.isTvCategoryPageLoaded(ZtuShopSmokeTests.java:62)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ImtechSmokeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isAppliancesPageLoaded">
+                  </a> <!-- isAppliancesPageLoaded -->
+                  <span class="method-name">isAppliancesPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.imtech.AppliancesPage.isBaseApplincePageLabelDisplayed(AppliancesPage.java:16)
+	at ImtechSmokeTests.isAppliancesPageLoaded(ImtechSmokeTests.java:28)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to validate is Appliances Imtech page loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RozetkaSmokeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isAppliancesPageLoaded">
+                  </a> <!-- isAppliancesPageLoaded -->
+                  <span class="method-name">isAppliancesPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.rozetka.AppliancesPage.isAppliancePageDisplayed(AppliancesPage.java:15)
+	at RozetkaSmokeTests.isAppliancesPageLoaded(RozetkaSmokeTests.java:28)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isLaptopsAndComputersPageLoaded">
+                  </a> <!-- isLaptopsAndComputersPageLoaded -->
+                  <span class="method-name">isLaptopsAndComputersPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.rozetka.LaptopsAndComputersPage.islaptopsAndComputersPageDisplayed(LaptopsAndComputersPage.java:15)
+	at RozetkaSmokeTests.isLaptopsAndComputersPageLoaded(RozetkaSmokeTests.java:38)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSmartphonesAndTvPageLoaded">
+                  </a> <!-- isSmartphonesAndTvPageLoaded -->
+                  <span class="method-name">isSmartphonesAndTvPageLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AREDCHYTS-NOUT&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: driver.version: Driver
+	at engine.Wait.waitForOptionalVisibility(Wait.java:60)
+	at engine.Driver.isElementDisplayed(Driver.java:122)
+	at domain.pageObjects.rozetka.SmartphonesAndTvPage.isSmartphonesAndTvPageDisplayed(SmartphonesAndTvPage.java:15)
+	at RozetkaSmokeTests.isSmartphonesAndTvPageLoaded(RozetkaSmokeTests.java:48)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ImtechCartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddedToCartProductShouldBeExistInCartPage">
+                  </a> <!-- AddedToCartProductShouldBeExistInCartPage -->
+                  <span class="method-name">AddedToCartProductShouldBeExistInCartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AllowsToAddProductToCart">
+                  </a> <!-- AllowsToAddProductToCart -->
+                  <span class="method-name">AllowsToAddProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateAddingProductToCartByTitleAndPrice">
+                  </a> <!-- ValidateAddingProductToCartByTitleAndPrice -->
+                  <span class="method-name">ValidateAddingProductToCartByTitleAndPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ImtechSmokeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isBasePageLoaded">
+                  </a> <!-- isBasePageLoaded -->
+                  <span class="method-name">isBasePageLoaded</span>
+                  <em>
+(Test to validate is base Imtech page loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isComputersPageLoaded">
+                  </a> <!-- isComputersPageLoaded -->
+                  <span class="method-name">isComputersPageLoaded</span>
+                  <em>
+(Test to validate is Computers Imtech page loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNetworkEquipmentPageLoaded">
+                  </a> <!-- isNetworkEquipmentPageLoaded -->
+                  <span class="method-name">isNetworkEquipmentPageLoaded</span>
+                  <em>
+(Test to validate is Network Equipment Imtech page loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isOfficeEquipmentPageLoaded">
+                  </a> <!-- isOfficeEquipmentPageLoaded -->
+                  <span class="method-name">isOfficeEquipmentPageLoaded</span>
+                  <em>
+(Test to validate is Office Equipment Imtech page loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPortableEquipmentPageLoaded">
+                  </a> <!-- isPortableEquipmentPageLoaded -->
+                  <span class="method-name">isPortableEquipmentPageLoaded</span>
+                  <em>
+(Test to validate is Portable Equipment Imtech page loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isServersEquipmentPageLoaded">
+                  </a> <!-- isServersEquipmentPageLoaded -->
+                  <span class="method-name">isServersEquipmentPageLoaded</span>
+                  <em>
+(Test to validate is Servers Equipment page loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSmarpthonesPageLoaded">
+                  </a> <!-- isSmarpthonesPageLoaded -->
+                  <span class="method-name">isSmarpthonesPageLoaded</span>
+                  <em>
+(Test to validate is Smartphones Imtech page loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTvPageLoaded">
+                  </a> <!-- isTvPageLoaded -->
+                  <span class="method-name">isTvPageLoaded</span>
+                  <em>
+(Test to validate is TV Imtech page loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RozetkaSmokeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isBasePageLoaded">
+                  </a> <!-- isBasePageLoaded -->
+                  <span class="method-name">isBasePageLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ImtechCartTests&quot;/&gt;
+      &lt;class name=&quot;ImtechSmokeTests&quot;/&gt;
+      &lt;class name=&quot;RozetkaSmokeTests&quot;/&gt;
+      &lt;class name=&quot;ZtuShopSmokeTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'isAppliancesPageLoaded')
+data.setCell(0, 2, 'RozetkaSmokeTests')
+data.setCell(0, 3, 63688);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'isLaptopsAndComputersPageLoaded')
+data.setCell(1, 2, 'RozetkaSmokeTests')
+data.setCell(1, 3, 62410);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'isSmartphonesAndTvPageLoaded')
+data.setCell(2, 2, 'RozetkaSmokeTests')
+data.setCell(2, 3, 62384);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'isAccessoriesCategoryPageLoaded')
+data.setCell(3, 2, 'ZtuShopSmokeTests')
+data.setCell(3, 3, 60328);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'isConsolesCategoryPageLoaded')
+data.setCell(4, 2, 'ZtuShopSmokeTests')
+data.setCell(4, 3, 60280);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'isTvCategoryPageLoaded')
+data.setCell(5, 2, 'ZtuShopSmokeTests')
+data.setCell(5, 3, 60237);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'isSmartphonesCategoryPageLoaded')
+data.setCell(6, 2, 'ZtuShopSmokeTests')
+data.setCell(6, 3, 60224);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'isLaptopsCategoryPageLoaded')
+data.setCell(7, 2, 'ZtuShopSmokeTests')
+data.setCell(7, 3, 60179);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'isAppliancesCategoryPageLoaded')
+data.setCell(8, 2, 'ZtuShopSmokeTests')
+data.setCell(8, 3, 60174);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'isAppliancesPageLoaded')
+data.setCell(9, 2, 'ImtechSmokeTests')
+data.setCell(9, 3, 32227);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'isBasePageLoaded')
+data.setCell(10, 2, 'ZtuShopSmokeTests')
+data.setCell(10, 3, 30221);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AddedToCartProductShouldBeExistInCartPage')
+data.setCell(11, 2, 'ImtechCartTests')
+data.setCell(11, 3, 17165);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'AllowsToAddProductToCart')
+data.setCell(12, 2, 'ImtechCartTests')
+data.setCell(12, 3, 16689);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ValidateAddingProductToCartByTitleAndPrice')
+data.setCell(13, 2, 'ImtechCartTests')
+data.setCell(13, 3, 9852);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'isComputersPageLoaded')
+data.setCell(14, 2, 'ImtechSmokeTests')
+data.setCell(14, 3, 5535);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'isNetworkEquipmentPageLoaded')
+data.setCell(15, 2, 'ImtechSmokeTests')
+data.setCell(15, 3, 5507);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'isOfficeEquipmentPageLoaded')
+data.setCell(16, 2, 'ImtechSmokeTests')
+data.setCell(16, 3, 5404);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'isSmarpthonesPageLoaded')
+data.setCell(17, 2, 'ImtechSmokeTests')
+data.setCell(17, 3, 4979);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'isPortableEquipmentPageLoaded')
+data.setCell(18, 2, 'ImtechSmokeTests')
+data.setCell(18, 3, 4787);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'isTvPageLoaded')
+data.setCell(19, 2, 'ImtechSmokeTests')
+data.setCell(19, 3, 3168);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'isServersEquipmentPageLoaded')
+data.setCell(20, 2, 'ImtechSmokeTests')
+data.setCell(20, 3, 2937);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'isBasePageLoaded')
+data.setCell(21, 2, 'RozetkaSmokeTests')
+data.setCell(21, 3, 2048);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'isBasePageLoaded')
+data.setCell(22, 2, 'ImtechSmokeTests')
+data.setCell(22, 3, 1853);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ZtuShopSmokeTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ImtechSmokeTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">RozetkaSmokeTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ImtechCartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">6968 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddedToCartProductShouldBeExistInCartPage</span>
+                <span class="method-start">6979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AllowsToAddProductToCart</span>
+                <span class="method-start">24340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateAddingProductToCartByTitleAndPrice</span>
+                <span class="method-start">41033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">50889 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ImtechSmokeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">50893 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isAppliancesPageLoaded</span>
+                <span class="method-start">50895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isBasePageLoaded</span>
+                <span class="method-start">83550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isComputersPageLoaded</span>
+                <span class="method-start">85408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNetworkEquipmentPageLoaded</span>
+                <span class="method-start">90946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isOfficeEquipmentPageLoaded</span>
+                <span class="method-start">96456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isPortableEquipmentPageLoaded</span>
+                <span class="method-start">101863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isServersEquipmentPageLoaded</span>
+                <span class="method-start">106654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isSmarpthonesPageLoaded</span>
+                <span class="method-start">109594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isTvPageLoaded</span>
+                <span class="method-start">114578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">117750 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RozetkaSmokeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">117752 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isAppliancesPageLoaded</span>
+                <span class="method-start">117753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isBasePageLoaded</span>
+                <span class="method-start">181777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isLaptopsAndComputersPageLoaded</span>
+                <span class="method-start">183830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isSmartphonesAndTvPageLoaded</span>
+                <span class="method-start">246558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">309244 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ZtuShopSmokeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">309245 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isAccessoriesCategoryPageLoaded</span>
+                <span class="method-start">309245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isAppliancesCategoryPageLoaded</span>
+                <span class="method-start">369800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isBasePageLoaded</span>
+                <span class="method-start">430196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isConsolesCategoryPageLoaded</span>
+                <span class="method-start">460661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isLaptopsCategoryPageLoaded</span>
+                <span class="method-start">521184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isSmartphonesCategoryPageLoaded</span>
+                <span class="method-start">581589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isTvCategoryPageLoaded</span>
+                <span class="method-start">642047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">702519 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ImtechCartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">702519 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

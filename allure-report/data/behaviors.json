@@ -1,0 +1,309 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Imtech tests",
+    "children" : [ {
+      "name" : "Cart tests",
+      "children" : [ {
+        "name" : "AddedToCartProductShouldBeExistInCartPage",
+        "uid" : "15c424ffb72aa59b",
+        "parentUid" : "96c46d5585bb754bac6ca75f1fae7d3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477294382,
+          "stop" : 1559477311523,
+          "duration" : 17141
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AllowsToAddProductToCart",
+        "uid" : "33c5e179b4a1ada1",
+        "parentUid" : "96c46d5585bb754bac6ca75f1fae7d3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477311689,
+          "stop" : 1559477328375,
+          "duration" : 16686
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ValidateAddingProductToCartByTitleAndPrice",
+        "uid" : "bb8a952b28a5a0be",
+        "parentUid" : "96c46d5585bb754bac6ca75f1fae7d3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477328382,
+          "stop" : 1559477338231,
+          "duration" : 9849
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "96c46d5585bb754bac6ca75f1fae7d3c"
+    }, {
+      "name" : "Smoke tests",
+      "children" : [ {
+        "name" : "Test to validate is Appliances Imtech page loaded",
+        "uid" : "78bfa60b42b719a6",
+        "parentUid" : "2fa26af05c0a5c81cf8e470ffae65c8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477338242,
+          "stop" : 1559477370892,
+          "duration" : 32650
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test to validate is base Imtech page loaded",
+        "uid" : "5c41984e1f425db",
+        "parentUid" : "2fa26af05c0a5c81cf8e470ffae65c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477370895,
+          "stop" : 1559477372749,
+          "duration" : 1854
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test to validate is Computers Imtech page loaded",
+        "uid" : "895be22fbc754739",
+        "parentUid" : "2fa26af05c0a5c81cf8e470ffae65c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477372754,
+          "stop" : 1559477378289,
+          "duration" : 5535
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test to validate is Network Equipment Imtech page loaded",
+        "uid" : "e1475f99de9d8428",
+        "parentUid" : "2fa26af05c0a5c81cf8e470ffae65c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477378293,
+          "stop" : 1559477383799,
+          "duration" : 5506
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test to validate is Office Equipment Imtech page loaded",
+        "uid" : "fd7b8ab5fa3ecf4c",
+        "parentUid" : "2fa26af05c0a5c81cf8e470ffae65c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477383802,
+          "stop" : 1559477389206,
+          "duration" : 5404
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test to validate is Portable Equipment Imtech page loaded",
+        "uid" : "7013e296aa3344e3",
+        "parentUid" : "2fa26af05c0a5c81cf8e470ffae65c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477389210,
+          "stop" : 1559477393996,
+          "duration" : 4786
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test to validate is Servers Equipment page loaded",
+        "uid" : "adca2cb9a9fda09b",
+        "parentUid" : "2fa26af05c0a5c81cf8e470ffae65c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477394001,
+          "stop" : 1559477396936,
+          "duration" : 2935
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test to validate is Smartphones Imtech page loaded",
+        "uid" : "3a551bfcd0bb1c66",
+        "parentUid" : "2fa26af05c0a5c81cf8e470ffae65c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477396942,
+          "stop" : 1559477401920,
+          "duration" : 4978
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test to validate is TV Imtech page loaded",
+        "uid" : "1b3eac9e0feffad4",
+        "parentUid" : "2fa26af05c0a5c81cf8e470ffae65c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477401924,
+          "stop" : 1559477405092,
+          "duration" : 3168
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2fa26af05c0a5c81cf8e470ffae65c8d"
+    } ],
+    "uid" : "e5d80951ff01633c3d294949213812e1"
+  }, {
+    "name" : "Rozetka tests",
+    "children" : [ {
+      "name" : "Smoke tests",
+      "children" : [ {
+        "name" : "isAppliancesPageLoaded",
+        "uid" : "fa06b123d96e30ec",
+        "parentUid" : "f9486cec44ea4d6a29adaadfd0e21f1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477405100,
+          "stop" : 1559477469118,
+          "duration" : 64018
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "isBasePageLoaded",
+        "uid" : "1c7fe2d018bc23f1",
+        "parentUid" : "f9486cec44ea4d6a29adaadfd0e21f1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559477469125,
+          "stop" : 1559477471171,
+          "duration" : 2046
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "isLaptopsAndComputersPageLoaded",
+        "uid" : "5b5579ce748f5acc",
+        "parentUid" : "f9486cec44ea4d6a29adaadfd0e21f1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477471176,
+          "stop" : 1559477533900,
+          "duration" : 62724
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "isSmartphonesAndTvPageLoaded",
+        "uid" : "483241e8cb24217d",
+        "parentUid" : "f9486cec44ea4d6a29adaadfd0e21f1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477533904,
+          "stop" : 1559477596587,
+          "duration" : 62683
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9486cec44ea4d6a29adaadfd0e21f1c"
+    } ],
+    "uid" : "10113a8c5db3164567f4b1926a6e3dc2"
+  }, {
+    "name" : "ZtShop tests",
+    "children" : [ {
+      "name" : "Smoke tests",
+      "children" : [ {
+        "name" : "isAccessoriesCategoryPageLoaded",
+        "uid" : "fe345c0c4813de8f",
+        "parentUid" : "fdab11c139af4a9978ec89eccb25a908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477596592,
+          "stop" : 1559477657142,
+          "duration" : 60550
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isAppliancesCategoryPageLoaded",
+        "uid" : "901eac7ddc50428c",
+        "parentUid" : "fdab11c139af4a9978ec89eccb25a908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477657146,
+          "stop" : 1559477717538,
+          "duration" : 60392
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isBasePageLoaded",
+        "uid" : "96d7ace263e229fc",
+        "parentUid" : "fdab11c139af4a9978ec89eccb25a908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477717541,
+          "stop" : 1559477748004,
+          "duration" : 30463
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isConsolesCategoryPageLoaded",
+        "uid" : "e165136f5c1a96a8",
+        "parentUid" : "fdab11c139af4a9978ec89eccb25a908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477748007,
+          "stop" : 1559477808526,
+          "duration" : 60519
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isLaptopsCategoryPageLoaded",
+        "uid" : "39273fa1e2bb4c81",
+        "parentUid" : "fdab11c139af4a9978ec89eccb25a908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477808531,
+          "stop" : 1559477868932,
+          "duration" : 60401
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isSmartphonesCategoryPageLoaded",
+        "uid" : "c4d8a1790a1e8c42",
+        "parentUid" : "fdab11c139af4a9978ec89eccb25a908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477868935,
+          "stop" : 1559477929390,
+          "duration" : 60455
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "isTvCategoryPageLoaded",
+        "uid" : "5adccb3f212cef5d",
+        "parentUid" : "fdab11c139af4a9978ec89eccb25a908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559477929393,
+          "stop" : 1559477989861,
+          "duration" : 60468
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fdab11c139af4a9978ec89eccb25a908"
+    } ],
+    "uid" : "3955d5ecb6754c276787772bf434dc8c"
+  } ]
+}
